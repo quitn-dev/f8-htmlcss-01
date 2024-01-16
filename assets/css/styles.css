@@ -62,8 +62,9 @@ a {
 .hero-wrap {
   display: flex;
   flex-direction: column;
+  position: relative;
   background-color: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 90px);
 }
 
 /* Navigation */
