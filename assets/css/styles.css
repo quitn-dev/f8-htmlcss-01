@@ -609,11 +609,19 @@ a {
 }
 
 .footer .desc {
+  width: 230px;
   white-space: normal;
+  line-height: 1.75;
 }
 
 .footer .social {
+  display: flex;
+  gap: 15px;
   margin-top: 40px;
+}
+
+.footer .social a {
+  height: 29px;
 }
 
 .footer .row-bottom {
